@@ -4,7 +4,7 @@ pipeline {
         stage('Pull from git'){
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/gaurav-lucky/JobPortal_Project.git'
+                git 'https://github.com/gaurav-lucky/j-potral.git'
              }
         }
         stage('Build') {
